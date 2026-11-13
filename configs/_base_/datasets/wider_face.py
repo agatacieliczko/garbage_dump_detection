@@ -38,7 +38,7 @@ test_pipeline = [
             dict(type='ImageToTensor', keys=['img']),
             dict(type='Collect', keys=['img']),
         ])
-]
+] 
 data = dict(
     samples_per_gpu=60,
     workers_per_gpu=2,
